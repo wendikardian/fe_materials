@@ -1,0 +1,72 @@
+:root {
+    --base-color: rgb(14, 67, 26);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo_header{
+    width: 150px; height: 70px;
+}
+
+.jumbotron{
+    background-color: #fff;
+    padding: 0;
+    margin-bottom: 0;
+    background-image: url(../images/jumbotron.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    width: 100%;
+    
+}
+
+.img-product{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.btn.btn-category {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: #404040;
+    --bs-btn-bg: var(--bs-white);
+    --bs-btn-border-color: #C2C2C2;
+    --bs-btn-border-radius: 1.5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: var(--base-color);
+    --bs-btn-hover-border-color: var(--base-color);
+    --bs-btn-focus-shadow-rgb: var(--base-color);
+    --bs-btn-active-color: var(--bs-white);
+    --bs-btn-active-bg: var(--base-color);
+    --bs-btn-active-border-color: var(--base-color);
+}
+
+/* change btn succes into base color  */
+.btn.btn-success {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--base-color);
+    --bs-btn-border-color: var(--base-color);
+    --bs-btn-border-radius: 1.5rem;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #2e7d32;
+    --bs-btn-hover-border-color: #2e7d32;
+    --bs-btn-focus-shadow-rgb: #2e7d32;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #2e7d32;
+    --bs-btn-active-border-color: #2e7d32;
+}
+
+/* responsive for mobile */
+@media only screen and (max-width: 568px) {
+    .header__navbar{
+        max-width: 95% !important; 
+    }
+}
