@@ -1,0 +1,19 @@
+
+:root {
+    --base-color: #4c4ddc;
+}
+
+.btn.btn-category {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: #404040;
+    --bs-btn-bg: var(--bs-white);
+    --bs-btn-border-color: #C2C2C2;
+    --bs-btn-border-radius: 1.5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: var(--base-color);
+    --bs-btn-hover-border-color: var(--base-color);
+    --bs-btn-focus-shadow-rgb: var(--base-color);
+    --bs-btn-active-color: var(--bs-white);
+    --bs-btn-active-bg: var(--base-color);
+    --bs-btn-active-border-color: var(--base-color);
+}
