@@ -64,7 +64,10 @@
     --bs-btn-active-border-color: #2e7d32;
 }
 
-
+a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
 
 /* responsive for mobile */
 @media only screen and (max-width: 568px) {
