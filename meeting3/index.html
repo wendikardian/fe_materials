@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practice</title>
+
+    <style>
+        tr{
+            border: 2px solid black;
+        }
+
+        td {
+            border: 2px solid black;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            /* vertical align */
+            vertical-align: middle;
+        }
+
+        th{
+            border: 2px solid black;
+            background-color: bisque;
+        }
+
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            margin-top:100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table Practice</h1>
+
+    <table
+        
+    >
+        <tr
+            style="border: 2px solid black;"
+        >
+            <th
+                rowspan="2"
+            >No</th>
+            <th
+                rowspan="2"
+            >Name</th>
+            <th
+                rowspan="2"
+            >Gender</th>
+            <th
+                colspan="2"
+            >
+                Address
+            </th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Wendi</td>
+            <td>Male</td>
+            <td>Bandung</td>
+            <td>Indonesia</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jesica</td>
+            <td>Female</td>
+            <td>New york</td>
+            <td>United States</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Kelvin</td>
+            <td>Male</td>
+            <td>London</td>
+            <td>UK </td>
+        </tr>
+    </table>
+</body>
+</html>
