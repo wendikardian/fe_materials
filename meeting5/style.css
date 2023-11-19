@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(187, 246, 226);
+    padding: 15px;
+}

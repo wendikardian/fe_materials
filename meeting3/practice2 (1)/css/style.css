@@ -1,0 +1,45 @@
+html {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 35px;
+    padding-top:0px;
+    padding-left:0px;
+    padding-right:0px;
+    background-color:#eeeeee;
+}
+img {
+    display: block;
+}
+div{
+    margin:50px auto;
+    padding:10px;
+    border-radius:5px;
+}
+table{
+    margin:auto;
+}
+a {
+    display:block;
+}
+p {
+    font-size:18px;
+}
+footer {
+    margin:0px -7px;
+    margin-top:30px;
+}
+header {
+    margin:-7px;
+    margin-bottom:0px;
+}
+main {
+    padding:10px;
+}
+td{
+    vertical-align:middle;
+    font-size:18px;
+    padding:10px;
+}
+table{
+    margin:50px 100px;
+}
