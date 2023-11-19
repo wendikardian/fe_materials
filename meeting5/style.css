@@ -66,3 +66,18 @@ header{
     margin: 0px;
 }
 
+
+
+.form-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+}
