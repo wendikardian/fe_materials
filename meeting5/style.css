@@ -11,6 +11,7 @@ ul {
 li{
     list-style: none;
     margin: 10px;
+    padding: 10px;
 }
 
 a {
@@ -41,3 +42,27 @@ header{
 .orange { 
     color:#FF9130;
 }
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    margin-top: 10px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content li:hover{
+    color: #FF9130;
+    background-color: #FFD099;
+    cursor: pointer;
+}
+
+.dropdown-content li{
+    padding: 10px;
+    margin: 0px;
+}
+
