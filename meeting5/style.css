@@ -22,6 +22,22 @@ a {
 header{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(187, 246, 226);
+    background-color: #B0926A;
     padding: 15px;
+}
+
+.jumbotron{
+    color: white;
+    height: 600px;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.orange { 
+    color:#FF9130;
 }
