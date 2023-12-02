@@ -114,6 +114,44 @@ function searchTodoList() {
   renderTodoList(filter);
 }
 
+function addTodoList() {
+    let todo = document.getElementById("inputTodo").value;
+    let date = document.getElementById("inputDate").value;
+    let time = document.getElementById("inputTime").value;
+    let color =  document.querySelector('input[name="colorOption"]:checked').value;
+    let colorCode = ';'
+    console.log(color)
+    if (color == "color1") {
+        colorCode = "#607EAA"
+    } else if (color == "color2") {
+        colorCode = "#AC7088"
+    } else if (color == "color3") {
+        colorCode = "#EED180"
+    } else if (color == "color4") {
+        colorCode = "#F37878"
+    } else if (color == "color5") {
+        colorCode = "#90C8AC"
+    } else if (color == "color6") {
+        colorCode = "#D8CCA3"
+    } else {
+        colorCode = "#82A284"
+    }
+    let newTodo = {
+        id: todoList.length + 1,
+        todo: todo,
+        date: date,
+        time: time,
+        color: colorCode,
+    }
+    todoList.push(newTodo) 
+    renderTodoList(todoList)
+    document.getElementById("inputTodo").value = "";
+    document.getElementById("inputDate").value = "";
+    document.getElementById("inputTime").value = "";
+    document.querySelector('input[name="colorOption"]:first-of-type').checked = true;
+
+}
+        
 
 // create function to delete data todo list
 function deleteTodoList(id) {
