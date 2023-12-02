@@ -62,16 +62,19 @@
         <form class="row g-3">
             <div class="col-auto">
             <div class="btn-group" role="group" aria-label="Basic outlined example">
-                <button type="button" class="btn btn-outline-primary">Sort by Ascending</button>
-                <button type="button" class="btn btn-outline-primary">Sort by Descending</button>
+                <button type="button" class="btn btn-outline-primary" onclick="sortAscending()" >Sort by Ascending</button>
+                <button type="button" class="btn btn-outline-primary" onclick="sortDescending()" >Sort by Descending</button>
             </div>
         </div>
             <div class="col-auto">
-              <input type="text" class="form-control" id="search" placeholder="Search">
+              <input type="text" class="form-control" id="search" placeholder="Search"
+              onkeyup="search()"
+              >
             </div>
         </form>
         
         <section id="list-todo">
+
         </section>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
