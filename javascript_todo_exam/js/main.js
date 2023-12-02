@@ -119,7 +119,12 @@ function addTodoList() {
     let date = document.getElementById("inputDate").value;
     let time = document.getElementById("inputTime").value;
     let color =  document.querySelector('input[name="colorOption"]:checked').value;
-    let colorCode = ';'
+    let colorCode = ''
+    // check if the all data filled or not
+    if (todo == "" || date == "" || time == "") {
+        alert("Please fill all the data")
+        return false
+    }
     console.log(color)
     if (color == "color1") {
         colorCode = "#607EAA"
