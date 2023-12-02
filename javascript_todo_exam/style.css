@@ -1,0 +1,53 @@
+#input-form {
+    margin: 20px 340px 0px 340px;
+    /* margin: 20px 340px; */
+}
+
+h1 {
+    color: rebeccapurple;
+    font-size: 10px;
+}
+
+#list-todo {
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#list-todo div{
+    margin: 10px 4px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #607EAA;
+    width: 200px;
+    height: 180px;
+    position: relative;
+}
+
+a {
+    position: absolute;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    bottom: 10px;
+    left: 10px
+}
+
+a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+h6 {
+    position: absolute;
+    bottom: 25px;
+}
+
+p {
+    background-color: white;
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: #A10035;
+    font-weight: bolder;
+}

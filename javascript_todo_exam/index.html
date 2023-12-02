@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Exam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    </head>
+
+<body>
+    <section id="input-form">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputDate" class="form-label">Date</label>
+                <input type="date" class="form-control" id="inputDate" required>
+            </div>
+            <div class="col-md-6">
+                <label for="inputTime" class="form-label">Time</label>
+                <input type="time" class="form-control" id="inputTime" required>
+            </div>
+            <div class="col-12">
+                <label for="inputTodo" class="form-label">To Do</label>
+                <input type="text" class="form-control" id="inputTodo" placeholder="to do"maxlength="40" required>
+            </div>
+        </form>
+        <div style="margin-top: 10px;">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="colorOption" id="option1" value="color1" checked>
+                <label class="form-check-label" for="inlineRadio1" style="color: #607EAA; font-weight: bolder;">Color</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="colorOption" id="option2" value="color2">
+                <label class="form-check-label" for="inlineRadio2" style="color: #AC7088; font-weight: bolder;">Color</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="colorOption" id="option3" value="color3">
+                <label class="form-check-label" for="inlineRadio2" style="color: #EED180; font-weight: bolder;">Color</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="colorOption" id="option4" value="color4">
+                <label class="form-check-label" for="inlineRadio2" style="color: #F37878; font-weight: bolder;">Color</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="colorOption" id="option5" value="color5">
+                <label class="form-check-label" for="inlineRadio2" style="color: #90C8AC; font-weight: bolder;">Color</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="colorOption" id="option6" value="color6">
+                <label class="form-check-label" for="inlineRadio2" style="color: #D8CCA3; font-weight: bolder;">Color</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="colorOption" id="option7" value="color7">
+                <label class="form-check-label" for="inlineRadio2" style="color: #82A284; font-weight: bolder;">Color</label>
+            </div>
+            <div class="col-12" style="margin-top: 10px; margin-bottom: 30px;">
+                <button type="submit" class="btn btn-primary">Create</button>
+            </div>
+        </div>
+        <form class="row g-3">
+            <div class="col-auto">
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-outline-primary">Sort by Ascending</button>
+                <button type="button" class="btn btn-outline-primary">Sort by Descending</button>
+            </div>
+        </div>
+            <div class="col-auto">
+              <input type="text" class="form-control" id="search" placeholder="Search">
+            </div>
+        </form>
+        
+        <section id="list-todo">
+        </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
