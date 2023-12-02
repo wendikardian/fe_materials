@@ -109,7 +109,20 @@ function searchTodoList() {
   let filter = todoList.filter((item) => {
     return item.todo.toLowerCase().includes(search.toLowerCase());
   });
+  console.log(filter);
   todo.innerHTML = "";
+  renderTodoList(filter);
+}
+
+
+// create function to delete data todo list
+function deleteTodoList(id) {
+    // clear searchbar
+    document.getElementById("search").value = "";
+  let filter = todoList.filter((item) => {
+    return item.id != id;
+  });
+  todoList = filter;
   renderTodoList(filter);
 }
 
